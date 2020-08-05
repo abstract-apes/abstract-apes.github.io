@@ -24,13 +24,13 @@
 
 // Palette.
 	$palette: (
-		bg:				#f3f6fa,
-		fg:				#7c8081,
+		bg:				#181818,
+		fg:				#d4d9e0,
 		border:			transparentize(#7c8081, 0.8),
 
 		header: (
 			bg:			#fff,
-			fg:			inherit,
+			fg:			#494949,
 			alt-bg:		transparent,
 			alt-fg:		#fff
 		),
@@ -48,7 +48,7 @@
 		),
 
 		one: (
-			bg:			#83d3c9,
+			bg:			#0e0e0f,
 			fg:			#fff
 		),
 

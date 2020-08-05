@@ -155,7 +155,7 @@
 		font-weight: _font(weight);
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
+		//text-transform: uppercase;
 
 		a {
 			color: inherit;
@@ -829,7 +829,7 @@
 						color: inherit;
 						display: inline-block;
 						line-height: 1em;
-						padding: 0.5em 0.5em;
+						padding: 0.5em 0.5em 0.4em 0.5em;
 						text-decoration: none;
 					}
 
@@ -972,7 +972,7 @@
 		background-size: auto, cover;
 		color: _palette(banner, fg);
 		cursor: default;
-		padding: 6em 0;
+		padding: 9em 0;
 		text-align: center;
 
 		.inner {
@@ -987,21 +987,22 @@
 
 			header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 0 0 2em 0;
-				padding: 3px 0 3px 0;
+				border-bottom: solid 1px;
+				border-top: solid 1px;
+				margin: 2em	 0 2em 0;
+				padding: 0em 0 0em 0;
 
 				h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
 					font-size: 2.5em;
 					font-family: _font(family-alternate);
-					font-weight: _font(weight-bold);
 					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
+					strong 
+					{
+						font-weight: _font(weight-bold);
+					}
 				}
 			}
 
@@ -1253,6 +1254,7 @@
 
 			#banner {
 				background-size: auto, cover;
+				background-position: top left, right;
 			}
 
 		/* Main */
@@ -1580,6 +1582,10 @@
 					text-align: center;
 				}
 			}
+						#banner {
+				background-size: auto, cover;
+				background-position: top left, right;
+			}
 
 			footer {
 				&.major {
@@ -1663,6 +1669,7 @@
 
 			#banner {
 				background-size: auto, cover;
+				background-position: top left, right;
 				padding: 6em 0;
 
 				.inner {
