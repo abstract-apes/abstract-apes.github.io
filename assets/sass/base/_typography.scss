@@ -186,6 +186,10 @@
 			margin: (_size(element-margin) * -1) 0 (_size(element-margin) * 1) 0;
 		}
 
+		&.blog-end {
+			margin: 0 0 (_size(element-margin) * 1) 0 !important;
+		}
+
 		@include breakpoint('<=xlarge') {
 			margin: (_size(element-margin) * 0.25) 0 (_size(element-margin) * -1) 0;
 		}
